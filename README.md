@@ -1,8 +1,8 @@
-# Retro VK — Мультимедийная SPA-платформа с ретро-интерфейсом
+# Retro Media — Мультимедийная SPA-платформа с ретро-интерфейсом
 
 Полнофункциональное Single Page Application (SPA), воссоздающее интерфейс легендарной соцсети начала 2010-х годов. Проект успешно мигрирован с императивного подхода (Vanilla JS) на декларативную компонентную архитектуру React + TypeScript и интегрирован с облачным бэкендом.
 
-[👉 Ссылка на живой деплой (GitHub Pages)](https://aushfoish.github.io/vk-old-react-ts-zustand)
+[👉 Ссылка на живой деплой ](https://retro-media-react-ts.vercel.app/)
 
 ---
 
@@ -40,16 +40,16 @@
 ### 🛠️ Инструкция по развертыванию:
 
 1. **Клонирование репозитория:**
-   git clone https://github.com/aushfoish/vk-old-react-ts-zustand
+   git clone https://github.com/aushfoish/retro-media-react-ts
    
 2. **Переход в директорию проекта:**
-   cd vk-old-react-ts-zustand
+   cd retro-media-react-ts
    
 3. **Сборка:**
-   docker build -t vk-react-ts .
+   docker build -t retro-media-react-ts .
    
 4. **Запуск:**
-   docker run -d -p 8080:80 vk-react-ts
+   docker run -d -p 8080:80 retro-media-react-ts
    
 
 После запуска приложение будет доступно по адресу **http://localhost:8080**
